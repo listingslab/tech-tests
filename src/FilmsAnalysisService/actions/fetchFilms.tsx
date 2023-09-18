@@ -1,8 +1,8 @@
 import axios from "axios"
 import {
   store,
-} from "./store"
-import {setPwaKey} from "./pwaReducer"
+  setPwaKey,
+} from "../"
 
 const filmsEndpointURL = "https://app.codescreen.com/api/assessments/films";
 const apiToken = "8c5996d5-fb89-46c9-8821-7063cfbc18b1"
@@ -10,8 +10,8 @@ const apiToken = "8c5996d5-fb89-46c9-8821-7063cfbc18b1"
 export const fetchFilms = (): any =>
   async (dispatch: any) => {
     try {
-        const {directorNameStr} = store.getState()
-        const ep = `${filmsEndpointURL}?directorName=${directorNameStr}`
+        const {searchStr} = store.getState()
+        const ep = `${filmsEndpointURL}?directorName=${searchStr}`
         dispatch(setPwaKey({key: "fetching", value: true}))
         axios.get(ep, {headers: { Authorization: `Bearer ${apiToken}` }})
             .then(function (response) {

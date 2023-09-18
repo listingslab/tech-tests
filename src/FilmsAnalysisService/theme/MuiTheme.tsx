@@ -1,4 +1,4 @@
-import {ThemeShape} from "../types"
+import {ThemeShape} from "../../types"
 import React from "react"
 import makeTheme from "./makeTheme"
 import {
@@ -6,19 +6,18 @@ import {
   ThemeProvider,
 } from "@mui/material"
 import {
-  selectPWA,
-} from "../redux/pwaReducer"
+  selectTheme,
+} from "../"
 import {usePwaSelect} from "../hooks/usePwaSelect"
 
 export default function MuiTheme(props: any) {
-  const pwa = usePwaSelect(selectPWA)
-  const {theme} = pwa
+  const {children} = props
+  const theme = usePwaSelect(selectTheme)
   const {
     mode,
     primaryColor,
     secondaryColor,
   } = theme
-  const {children} = props
   const customTheme = makeTheme(
     mode, 
     primaryColor, 

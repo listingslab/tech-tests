@@ -3,7 +3,7 @@ import { Provider } from "react-redux"
 import { PersistGate } from "redux-persist/integration/react"
 import { store, persistor } from "./store"
 
-export function WrapRedux(props) {
+export function WrapRedux(props: any) {
   const {children} = props
   return (
     <>

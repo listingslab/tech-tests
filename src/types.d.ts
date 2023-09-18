@@ -1,6 +1,6 @@
 import { PaletteMode } from "@mui/material"
 export type PwaReduxShape = {
-  directorNameStr: string
+  searchStr: string
   theme: ThemeShape
 }
 

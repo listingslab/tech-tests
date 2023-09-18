@@ -8,12 +8,13 @@ export default function makeTheme(
   return {
     palette: {
       mode,
+      background: {
+        paper: "#f7f7fa",
+      },
       primary: {
         main: primary,
       },
-      // background: {
-      //   default: "#fcfcfc", //"#fcfcfc",
-      // },
+      
       secondary: {
         main: secondary,
       },

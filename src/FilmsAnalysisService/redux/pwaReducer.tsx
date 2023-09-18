@@ -1,16 +1,16 @@
-import { createSlice, PayloadAction } from "@reduxjs/toolkit"
-import { RootState } from "./store"
 import {
   KeyValueShape,
   PwaReduxShape,
-} from "../types"
+} from "../../types"
+import { createSlice, PayloadAction } from "@reduxjs/toolkit"
+import { RootState } from "./store"
 
 const initialState: PwaReduxShape = {
-  directorNameStr: "", // Ridley Scott
+  searchStr: "", // Ridley Scott
   theme: {
-    mode: "dark",
-    primaryColor: "#C09F52",
-    secondaryColor: "#87703B",
+    mode: "light",
+    primaryColor: "#ffbb4b",
+    secondaryColor: "#7d7da7",
     font: "Quicksand"
   },
 }
@@ -28,5 +28,8 @@ export const pwaSlice = createSlice({
 })
 
 export const selectPWA = (state: RootState) => state
+export const selectTheme = (state: RootState) => state.theme
+export const selectSearchStr = (state: RootState) => state.searchStr
+
 export const { setPwaKey } = pwaSlice.actions
 export default pwaSlice.reducer

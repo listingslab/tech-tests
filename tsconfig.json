@@ -6,8 +6,10 @@
     "lib": ["ES2015", "DOM"],
     "strict": true,
     "types": ["jest"],
-    "noEmit": true
+    "noEmit": true,
+    "jsx": "react",
   },
+  
   "include": ["src/**/*"],
   "exclude": ["src/*.test.ts"]
 }

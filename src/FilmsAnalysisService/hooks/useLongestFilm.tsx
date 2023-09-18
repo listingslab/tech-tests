@@ -1,9 +1,11 @@
+import {store} from "../"
 
 export const useLongestFilm = () => {
-    // if (!films) return "N/A"
-    // if (!films.length) return "N/A"
-    // return films.reduce(function(prev, current) {
-    //     return (prev.length > current.length) ? prev : current
-    // })
+    const films = store.getState().films
+    if(!films.length) return null
+    const film = films.reduce(function(prev, current) {
+        return (prev.length > current.length) ? prev : current
+    })
+    return film.length
     return null
 }

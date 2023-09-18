@@ -1,8 +1,10 @@
+import {store} from "../"
+
 export const useBestRatedFilm = () => {
-    // if (!films) return "N/A"
-    // if (!films.length) return "N/A"
-    // return films.reduce(function(prev, current) {
-    //     return (prev.rating > current.rating) ? prev : current
-    // })
-    return null
+    const films = store.getState().films
+    if(!films.length) return null
+    const film = films.reduce(function(prev, current) {
+        return (prev.rating > current.rating) ? prev : current
+    })
+    return film.name
 }

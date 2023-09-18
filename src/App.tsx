@@ -23,7 +23,7 @@ export default function App() {
   const films = usePwaSelect(selectFilms)
   return (<>
             <MuiTheme>
-              <Container maxWidth="sm">
+              <Container maxWidth="md">
                 <CssBaseline />
                 <Card sx={{my:2}}>
                   <CardHeader 

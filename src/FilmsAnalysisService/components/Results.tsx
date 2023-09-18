@@ -37,7 +37,7 @@ export default function Results() {
                         Longest Film
                       </Font>
                       <Font variant="giant">
-                        <div id="longest-film">{longestFilm || "N/A"}</div>
+                        <div id="longest-film">{longestFilm ? `${longestFilm} mins` : "N/A"}</div>
                       </Font>
                     </Paper>
                   </Grid>

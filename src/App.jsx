@@ -1,15 +1,13 @@
-import React from "react";
-
-import {usePwaDispatch} from "../hooks/usePwaDispatch"
-import {usePwaSelect} from "../hooks/usePwaSelect"
-import {useBestRatedFilm} from "../hooks/useBestRatedFilm"
-import {useAverageRating} from "../hooks/useAverageRating"
-import {useLongestFilm} from "../hooks/useLongestFilm"
-import {useShortestDays} from "../hooks/useShortestDays"
-
-import {selectPWA} from "../redux/pwaReducer"
-import {fetchFilms} from "../redux/fetchFilms"
-import {setPwaKey} from "../redux/pwaReducer" 
+import React from "react"
+import {usePwaDispatch} from "./hooks/usePwaDispatch"
+import {usePwaSelect} from "./hooks/usePwaSelect"
+import {useBestRatedFilm} from "./hooks/useBestRatedFilm"
+import {useAverageRating} from "./hooks/useAverageRating"
+import {useLongestFilm} from "./hooks/useLongestFilm"
+import {useShortestDays} from "./hooks/useShortestDays"
+import {selectPWA} from "./redux/pwaReducer"
+import {fetchFilms} from "./redux/fetchFilms"
+import {setPwaKey} from "./redux/pwaReducer" 
 
 export default function App() {
   const dispatch = usePwaDispatch()

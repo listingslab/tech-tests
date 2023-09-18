@@ -7,6 +7,7 @@ import { RootState } from "./store"
 
 const initialState: PwaReduxShape = {
   searchStr: "", // Ridley Scott
+  films: [],
   theme: {
     mode: "light",
     primaryColor: "#ffbb4b",
@@ -29,6 +30,7 @@ export const pwaSlice = createSlice({
 
 export const selectPWA = (state: RootState) => state
 export const selectTheme = (state: RootState) => state.theme
+export const selectFilms = (state: RootState) => state.films
 export const selectSearchStr = (state: RootState) => state.searchStr
 
 export const { setPwaKey } = pwaSlice.actions

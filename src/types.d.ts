@@ -1,7 +1,12 @@
 import { PaletteMode } from "@mui/material"
 export type PwaReduxShape = {
   searchStr: string
+  films: Array<any>
   theme: ThemeShape
+}
+
+export interface Film {
+
 }
 
 export interface KeyValueShape {

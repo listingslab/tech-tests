@@ -12,11 +12,15 @@ import {
   Icon,
   Font,
   usePwaDispatch,
-  resetRedux
+  usePwaSelect,
+  selectFilms,
+  resetRedux,
+  Results,
 } from "./FilmsAnalysisService"
 
 export default function App() {
   const dispatch = usePwaDispatch()
+  const films = usePwaSelect(selectFilms)
   return (<>
             <MuiTheme>
               <Container maxWidth="sm">
@@ -37,6 +41,8 @@ export default function App() {
                             </IconButton>}
                   />
                   <DirectorInput />
+                  <Results />
+                  
                 </Card>
               </Container>
             </MuiTheme>

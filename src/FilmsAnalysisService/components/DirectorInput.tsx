@@ -18,7 +18,7 @@ export default function DirectorInput() {
     const dispatch = usePwaDispatch()
     const searchStr = usePwaSelect(selectSearchStr)
     return (<>
-                <CardContent>
+                <CardContent sx={{display: "flex"}}>
                     <TextField 
                       id="input-box"
                       placeholder="Enter director name"
@@ -32,17 +32,19 @@ export default function DirectorInput() {
                         dispatch(setPwaKey({key: "searchStr", value: e.target.value}))
                       }}
                     />
-                  </CardContent>
-                  <CardActions>
+                  <Box sx={{display: "flex"}}>
                     <Button
-                      sx={{mt:2, margin: "auto"}}
+                      sx={{boxShadow: "none", ml:1}}
                       variant="contained"
                       onClick={() => {
                         dispatch(fetchFilms())
                       }}>
-                        <Font color="white">Submit</Font>
+                        <Font color="white" variant="title">
+                          Submit
+                        </Font>
                     </Button>
-                  </CardActions>
+                    </Box>
+                  </CardContent>
                 
           </>)
 }

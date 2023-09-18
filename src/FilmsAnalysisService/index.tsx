@@ -6,6 +6,7 @@ import {WrapRedux} from "./redux/WrapRedux"
 import {
     setPwaKey,
 } from "./redux/pwaReducer"
+import Results from "./components/Results"
 import DirectorInput from "./components/DirectorInput"
 import {useAverageRating} from "./hooks/useAverageRating"
 import {useBestRatedFilm} from "./hooks/useBestRatedFilm"
@@ -18,7 +19,12 @@ import {Font} from "./theme/Font"
 import Icon from "./theme/Icon"
 import {resetRedux} from "./actions/resetRedux"
 import {fetchFilms} from "./actions/fetchFilms"
-import {selectPWA, selectTheme, selectSearchStr} from "./redux/pwaReducer"
+import {
+    selectPWA, 
+    selectTheme, 
+    selectSearchStr,
+    selectFilms,
+} from "./redux/pwaReducer"
 
 export {
     store,
@@ -27,8 +33,10 @@ export {
     selectPWA,
     selectTheme,
     selectSearchStr,
+    selectFilms,
     WrapRedux,
     DirectorInput,
+    Results,
     usePwaSelect,
     usePwaDispatch,
     useShortestDays,

@@ -1,6 +1,4 @@
 import React from "react";
-// import './style.css';
-// import '../Films/style.css';
 
 import {usePwaDispatch} from "../hooks/usePwaDispatch"
 import {usePwaSelect} from "../hooks/usePwaSelect"
@@ -78,7 +76,3 @@ export default function App() {
           
       </>)
 }
-
-/*
-{films ? <pre>{JSON.stringify(films, null, 2)}</pre> : null }
-*/

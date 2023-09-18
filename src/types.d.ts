@@ -5,8 +5,12 @@ export type PwaReduxShape = {
   theme: ThemeShape
 }
 
-export interface Film {
-
+export interface FilmShape {
+  name: string
+  length: number
+  rating: number
+  releaseDate: string
+  directorName: string
 }
 
 export interface KeyValueShape {

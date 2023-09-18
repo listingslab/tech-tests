@@ -1,15 +1,10 @@
+import {store} from "../"
 import dayjs from "dayjs"
-export type FilmShape = {
-    name: string
-    length: number
-    rating: number
-    releaseDate: string
-    directorName: string
-}
-export const useShortestDays = (films: Array<FilmShape>) => {
-    if (!films) return "N/A"
-    if (!films.length) return "N/A"
-    // let lastDate = null
+
+export const useShortestDays = () => {
+    // let shortestDays: number | null = null
+    // const films = store.getState().films
+    // console.log("useShortestDays", films)
     // const days = []
     // for(let i = 0; i < films.length; i++){        
     //     const {releaseDate} = films[i]
@@ -20,5 +15,5 @@ export const useShortestDays = (films: Array<FilmShape>) => {
     // return days.reduce(function(prev, current) {
     //     return (prev > current) ? prev : current
     // })
-    return 29
+    return null
 }

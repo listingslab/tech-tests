@@ -38,7 +38,8 @@ export function Font(props: any) {
     textfontSize = isBig ? "0.8rem" : "0.8rem"
   }
   if (variant === "giant") {
-    textfontSize = isBig ? "1rem" : "0.9rem"
+    textfontSize = isBig ? "2rem" : "2rem"
+    c = "#7d7da7"
   }
   if (fontSize) textfontSize = fontSize
   if (fixedH) fH = fixedH

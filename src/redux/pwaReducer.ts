@@ -7,6 +7,12 @@ import {
 
 const initialState: PwaReduxShape = {
   directorNameStr: "", // Ridley Scott
+  theme: {
+    mode: "dark",
+    primaryColor: "#C09F52",
+    secondaryColor: "#87703B",
+    font: "Quicksand"
+  },
 }
 
 export const pwaSlice = createSlice({

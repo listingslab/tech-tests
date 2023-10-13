@@ -1,8 +1,8 @@
-# CodeScreen assessment
+# Tech Tests
 
 ## Application Overview
 
-The CodeScreen Films Analysis Service is a `React` application that allows users to display certain statistics about films for a given director.
+The **CompanyName** Films Analysis Service is a `React` application that allows users to display certain statistics about films for a given director.
 
 It uses the following libraries / technologies - don't hesitate to refer to the docs if you need to:
 
@@ -24,8 +24,8 @@ Once you enter a director name into the input box and submit the form, various s
 
 ![App Stats Display](/public/app_stats_display.png)
 <br><br>
-The full list of films, directed by the given director, is retrieved from the CodeScreen Films REST API. <br><br>
-This API is a service that contains one endpoint,`GET` https://app.codescreen.com/api/assessments/films, which returns the details of all films directed by the given director. The director name is passed in as a `query param` variable called `directorName`.
+The full list of films, directed by the given director, is retrieved from the **CompanyName** Films REST API. <br><br>
+This API is a service that contains one endpoint,`GET` https://app.**CompanyName**.com/api/assessments/films, which returns the details of all films directed by the given director. The director name is passed in as a `query param` variable called `directorName`.
 
 For authentication, you need to send your API token in the `Authorization HTTP header` using the [Bearer authentication scheme](https://tools.ietf.org/html/draft-ietf-oauth-v2-bearer-20#section-2.1). Your API token is `8c5996d5-fb89-46c9-8821-7063cfbc18b1`.
 
@@ -103,10 +103,10 @@ This test should take no longer than 3 hours to complete successfully.
 Good luck!
 ## License
 
-At CodeScreen, we strongly value the integrity and privacy of our assessments. As a result, this repository is under exclusive copyright, which means you **do not** have permission to share your solution to this test publicly (i.e., inside a public GitHub/GitLab repo, on Reddit, etc.). <br>
+At **CompanyName**, we strongly value the integrity and privacy of our assessments. As a result, this repository is under exclusive copyright, which means you **do not** have permission to share your solution to this test publicly (i.e., inside a public GitHub/GitLab repo, on Reddit, etc.). <br>
 
 ## Submitting your solution
 
 Please push your changes to the `main branch` of this repository. You can push one or more commits. <br>
 
-Once you are finished with the task, please click the `Submit Solution` link on <a href="https://app.codescreen.com/candidate/55ff132c-f682-49e0-bf2a-3ffa93131442" target="_blank">this screen</a>.
+Once you are finished with the task, please Submit Solution

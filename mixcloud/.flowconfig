@@ -1,0 +1,11 @@
+[ignore]
+.*/components/__tests__/.*
+.*/flow-typed/.*
+
+[include]
+.*/components/.*
+.*/containers/.*
+
+[libs]
+
+[options]

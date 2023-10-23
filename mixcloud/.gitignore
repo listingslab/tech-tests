@@ -1,0 +1,8 @@
+node_modules
+npm-debug.log
+coverage
+yarn-error.log
+.idea/
+lib/
+bundle.js
+.DS_Store

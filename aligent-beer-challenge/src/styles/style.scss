@@ -1,0 +1,20 @@
+/**
+ * Created by Chris Dorward on 03/03/2017
+ * Styles entrypoint
+ */
+
+@import './vars.scss';
+
+$gradient-from: #aed2e9;
+$gradient-to: #14254c;
+$gradient-background: $gradient-from;
+
+html, body, #root {
+  /*
+  background: url(/img/backgrounds/bg.png) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  */
+}

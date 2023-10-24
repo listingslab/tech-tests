@@ -1,0 +1,26 @@
+{
+  "name": "spokennumberify",
+  "version": "1.0.0",
+  "description": "Type a number from 0 to 999,999,999,999 into the box below to convert it into its spoken equivalent.",
+  "main": "public/js/main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/listingslab/spokenNumberify.git"
+  },
+  "author": "listingslab",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/listingslab/spokenNumberify/issues"
+  },
+  "homepage": "https://github.com/listingslab/spokenNumberify#readme",
+  "devDependencies": {
+    "grunt": "^0.4.5",
+    "grunt-contrib-jshint": "^0.11.3",
+    "grunt-contrib-requirejs": "^0.4.4",
+    "grunt-contrib-watch": "^0.6.1",
+    "jshint-stylish": "^2.0.1"
+  }
+}

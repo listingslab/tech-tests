@@ -1,0 +1,17 @@
+/**
+ * Created by Amy on 02/02/2017
+ * components/Header/Header
+ */
+
+@import '../../styles/vars.scss';
+
+.header {
+  .navbar-brand {
+    display: flex;
+    align-items: center;
+  }
+
+  .navbar-brand > img {
+    padding: 7px;
+  }
+}

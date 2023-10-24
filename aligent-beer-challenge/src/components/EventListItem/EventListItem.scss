@@ -1,0 +1,15 @@
+/**
+ * Created by Chris Dorward on 05/03/2017
+ * components/EventList/EventList
+ */
+
+@import '../../styles/vars.scss';
+
+.event-list-item{
+  display: block;
+  width: 245px;
+  margin-bottom: 5px;
+  text-align: left;
+  overflow: hidden;
+  cursor: pointer;
+}

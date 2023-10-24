@@ -1,0 +1,14 @@
+{
+  "name": "monorepo",
+  "version": "1.0.0",
+  "main": "/",
+  "author": "Hristijan Petrovski",
+  "license": "UNLICENSED",
+  "scripts": {
+  "start": "concurrently \"yarn --cwd backend start\" \"yarn --cwd socket start\" \"yarn --cwd frontend dev\"",
+  "postinstall": "concurrently \"yarn --cwd backend install\" \"yarn --cwd socket install\" \"yarn --cwd frontend install\""
+},
+  "dependencies": {
+    "concurrently": "^8.0.1"
+  }
+}

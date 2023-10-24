@@ -1,6 +1,6 @@
 ## Tech Tests
 
-The issue is that proper reviews of work are often not provided. By this I mean a detailed review of the work which shows at the very least that is WAS reviewed and the reasons it didn’t meet expectations. 
+Sometimes proper reviews of work are not provided. By this I mean a detailed review of the work which shows at the very least that is WAS reviewed and the reasons it didn’t meet expectations. 
 
 Any submission shows significant time and effort was spent by the candidate, and it’s reasonable to expect the courtesy of such a review. It only takes a few minutes and weighed against their effort, it’s inappropriate to not do it
 

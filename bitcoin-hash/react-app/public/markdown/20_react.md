@@ -1,0 +1,3 @@
+## ![alt text](../svg/logo16.svg "Bitcoin Hash Logo")  React
+
+Instead of saving anything to a DB, we're using a [persisted Redux store with LocalStorage](https://github.com/listingslab/bitcoin-hash/blob/master/react-app/src/BitcoinHash/redux/store.ts). This means a returning visit does not require a DB request and even better; the entire app state is saved. As a next step I would also save the redux state to a cloud based NoSQL DB at certain times for good measure

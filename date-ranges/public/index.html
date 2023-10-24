@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>
+      KM Test Case
+    </title>
+    <meta name="description" content="Filters campaigns by campaign name and date range"/>
+    <meta property="og:description" content="Filters campaigns by campaign name and date range" />
+    <meta property="og:title" content="KM Test Case" />
+    <meta property="og:site_name" content="KM Test Case" />
+    <meta property="og:url" content="https://kingmakers-test.web.app" />
+    <meta name="theme-color" content="#1F760D" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="mobile-web-app-capable" content="yes" />
+    <meta name="HandheldFriendly" content="true" />
+    <link rel="icon" href="%PUBLIC_URL%/favicon.ico" />
+    <link rel="apple-touch-icon" href="%PUBLIC_URL%/png/icon.png" />
+    <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
+    <meta property="og:type" content="website" />
+    <meta property="og:image" content="%PUBLIC_URL%/png/kingmakers.png" />
+    <meta name="geo.region" content="MT" />
+    <meta name="geo.placename" content="Attard" />
+    <meta name="geo.position" content="35.891377;14.443941" />
+    <meta name="ICBM" content="35.891377, 14.443941" />
+  </head>
+  <body>
+    <noscript>
+      <div id="serverSideRendered">
+        <h1>KM Test Case</h1>
+        <p>Develop a simple React application that displays a list of 
+          campaigns that can be filtered by campaign name and date range</p>
+          <a href="https://github.com/listingslab/km-test-case" target="_blank">
+            GitHub
+          </a> by <a href="https://listingslab.com" target="_blank">
+            listingslab
+          </a>
+      </div>
+    </noscript>
+    <div id="km-test-case" />
+    <script >
+      if (navigator && navigator.serviceWorker) {
+        navigator.serviceWorker.register('/serviceWorker.js');
+      }
+    </script>
+  </body> 
+</html>

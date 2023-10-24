@@ -1,4 +1,6 @@
-## Tech Tests
+> Please consider the environment before printing a tech test
+
+#### Tech Tests
 
 Sometimes proper reviews of work are not provided. By this I mean a detailed review of the work which shows at the very least that is WAS reviewed and the reasons it didn’t meet expectations. 
 

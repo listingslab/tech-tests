@@ -139,6 +139,5 @@ I use Design Systems a lot. Adding [Material UI](https://mui.com) here might see
 
 ---
 
-Solution was zipped and shared on [Google Drive]() with `becca.hilton@mixcloud.com`, `terry.morgan@mixcloud.com`, 23rd Oct 2023, 9am
 
 [![listingslab](./dist/images/listingslab.png)](https://listingslab.com/?mixcloud)

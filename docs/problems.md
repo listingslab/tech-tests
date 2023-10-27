@@ -12,7 +12,7 @@ The real problem is candidates need to avoid the same situation in the future. T
 
 Tests are a two way street. Candidates want to understand a team's requirements as much as the team need to understand their approach to make the process useful to both sides.  Nobody's time should be wasted on technical tests that are not needed
 
-#### What should it look like?
+#### What could the process look like?
 
 Say a hirer does an initial screening interview with HR. They decide to take things to the tech test stage, then the process could look like this;
 
